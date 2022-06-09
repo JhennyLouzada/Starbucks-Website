@@ -7,7 +7,7 @@ https://user-images.githubusercontent.com/99519586/172737138-679e9d8b-ab73-40a1-
 
 
 
-- Link da Aplicação: https://jhennylouzada.github.io/Calculadora/
+- Link da Aplicação: https://jhennylouzada.github.io/Starbucks-Website/
 
 
 
