@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Lexend+Deca:wght@200;400;700&display=swap"
+        rel="stylesheet">
+    <title>StarBucks Coffee</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="circle"></div>
+
+        <header>
+            <a href="#"><img src="./assets/logo.png" class="logo" /></a>
+
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+
+        <div class="main">
+            <div class="textBox">
+                <h2>It's not just Coffee <br>It's <span>StarBucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis doloribus, cupiditate ratione
+                    itaque alias voluptas minus. Odio ipsam, ex soluta similique harum deleniti est saepe, rem nulla
+                    iure enim distinctio!</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="imgBox">
+                <img src="./assets/img1.png" class="starbucks" />
+            </div>
+        </div>
+
+        <ul class="drinks">
+            <li><img src="./assets/thumb1.png" onclick="slider('assets/img1.png'); changeColor('#017143')" /></li>
+            <li><img src="./assets/thumb2.png" onclick="slider('assets/img2.png'); changeColor('#f9d2de')" /></li>
+            <li><img src="./assets/thumb3.png" onclick="slider('assets/img3.png'); changeColor('#bf40bf')" /></li>
+        </ul>
+
+        <ul class="social-media">
+           <li><a href="#"> <img src="./assets/facebook.png" /> </a></li>
+           <li><a href="#"> <img src="./assets/twitter.png" /> </a></li>
+           <li> <a href="#"> <img src="./assets/instagram.png" /> </a></li>
+        </ul>
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
